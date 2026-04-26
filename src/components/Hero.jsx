@@ -32,13 +32,13 @@ export default function Hero({ navigate }) {
           <div className="flex flex-col sm:flex-row gap-5 justify-center mt-12 animate-fade-in-up delay-800">
             <button
               onClick={() => navigate('contact')}
-              className="px-16 py-6 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-black rounded-full font-black text-xl tracking-tight transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/40"
+              className="px-20 py-7 bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-black rounded-full font-black text-lg tracking-tight transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/40"
             >
               Ücretsiz Başlayın
             </button>
             <button
               onClick={() => navigate('services')}
-              className="px-16 py-6 bg-white/5 hover:bg-white/10 border-2 border-orange-400/40 hover:border-orange-400/80 text-orange-100 rounded-full font-black text-xl tracking-tight transition-all duration-300 hover:scale-105 backdrop-blur-sm"
+              className="px-20 py-7 bg-white/5 hover:bg-white/10 border-2 border-orange-400/40 hover:border-orange-400/80 text-orange-100 rounded-full font-black text-lg tracking-tight transition-all duration-300 hover:scale-105 backdrop-blur-sm"
             >
               Özellikleri Keşfedin
             </button>
