@@ -28,12 +28,12 @@ export default function Navbar({ page, navigate }) {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <button onClick={() => go('home')} className="flex items-center">
+        <button onClick={() => go('home')} className="flex items-center ml-4">
           <img
             src="/famu-logo.svg"
             alt="FAMU Ajans"
-            className="h-14 w-auto object-contain"
-            style={{ maxWidth: '180px' }}
+            className="h-16 w-auto object-contain"
+            style={{ maxWidth: '210px' }}
           />
         </button>
 
@@ -58,7 +58,7 @@ export default function Navbar({ page, navigate }) {
         {/* CTA button */}
         <button
           onClick={() => go('contact')}
-          className="hidden md:block px-5 py-2.5 rounded-full text-sm font-bold text-white tracking-wide transition-all duration-300 hover:scale-105"
+          className="hidden md:block px-8 py-4 rounded-full text-sm font-bold text-white tracking-wide transition-all duration-300 hover:scale-105"
           style={{
             background: 'linear-gradient(135deg, rgba(234,88,12,0.85), rgba(202,138,4,0.85))',
             boxShadow: '0 0 18px 4px rgba(234,88,12,0.45), 0 2px 12px rgba(0,0,0,0.5)',
