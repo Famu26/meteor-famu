@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 68" width="260" height="68">
+  <defs>
+    <linearGradient id="og" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#FFAA00"/>
+      <stop offset="100%" stop-color="#E05000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Particle wave accent (top-right) -->
+  <g opacity="0.75">
+    <circle cx="178" cy="7"  r="2.2" fill="#FF6600"/>
+    <circle cx="186" cy="3"  r="1.8" fill="#FF7700"/>
+    <circle cx="184" cy="13" r="1.6" fill="#FF5500"/>
+    <circle cx="193" cy="6"  r="1.6" fill="#FF8800"/>
+    <circle cx="199" cy="2"  r="1.4" fill="#FFAA00"/>
+    <circle cx="196" cy="15" r="1.3" fill="#FF6600"/>
+    <circle cx="205" cy="9"  r="1.3" fill="#FF7700"/>
+    <circle cx="210" cy="4"  r="1.1" fill="#FFBB00"/>
+    <circle cx="208" cy="18" r="1.1" fill="#FF5500"/>
+    <circle cx="215" cy="12" r="1.0" fill="#FF8800"/>
+    <circle cx="220" cy="5"  r="1.0" fill="#FFCC00"/>
+    <circle cx="218" cy="21" r="0.9" fill="#FF6600"/>
+    <circle cx="224" cy="14" r="0.9" fill="#FF9900"/>
+    <circle cx="230" cy="7"  r="0.8" fill="#FFBB00"/>
+    <circle cx="228" cy="22" r="0.7" fill="#FF7700"/>
+    <circle cx="235" cy="16" r="0.7" fill="#FFAA00"/>
+    <circle cx="240" cy="9"  r="0.6" fill="#FFCC00"/>
+    <circle cx="171" cy="11" r="1.4" fill="#FF5500"/>
+    <circle cx="174" cy="19" r="1.2" fill="#FF6600"/>
+    <circle cx="245" cy="12" r="0.5" fill="#FFBB00"/>
+    <circle cx="248" cy="6"  r="0.5" fill="#FFDD00"/>
+    <circle cx="252" cy="17" r="0.4" fill="#FFAA00"/>
+    <circle cx="256" cy="10" r="0.4" fill="#FFCC00"/>
+  </g>
+
+  <!-- FAMU main text: FA orange, MU white -->
+  <text
+    x="0" y="46"
+    font-family="'Arial Black', 'Impact', 'Helvetica Neue', sans-serif"
+    font-weight="900"
+    font-size="50"
+    letter-spacing="-1">
+    <tspan fill="url(#og)">FA</tspan><tspan fill="#FFFFFF">MU</tspan>
+  </text>
+
+  <!-- Left decorative line -->
+  <line x1="1" y1="56.5" x2="34" y2="56.5" stroke="#FF8800" stroke-width="1.5"/>
+
+  <!-- Subtitle: REKLAM AJANSI -->
+  <text
+    x="39" y="60"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    font-size="8.2"
+    fill="#FF8800"
+    letter-spacing="2.4">REKLAM AJANSI</text>
+
+  <!-- Right decorative line -->
+  <line x1="175" y1="56.5" x2="208" y2="56.5" stroke="#FF8800" stroke-width="1.5"/>
+</svg>
